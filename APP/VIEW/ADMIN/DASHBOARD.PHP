@@ -1,18 +1,7 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Tableau de bord</title>
-</head>
-<body>
-    <h1>Bienvenue <?= $_SESSION['user']['username'] ?>!</h1>
-    <p>Vous êtes connecté en tant qu'administrateur</p>
-    <a href="?page=logout">Déconnexion</a>
-</body>
-</html> -->
 <?php
 // Vérification de session au début du fichier
 if (!isset($_SESSION['user'])) {
-    header('Location: ?page=login');
+    header('Location: dashboard.php');
     exit;
 }
 ?>

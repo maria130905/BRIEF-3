@@ -1,6 +1,6 @@
-<?php
-require '../models/UserModel.php';
-
+ <!-- <?php
+require '../MODELS/USERMODEL.PHP';
+require '../CONFIG/DATABASE.PHP';
 class AuthController {
     public function login() {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -19,3 +19,4 @@ class AuthController {
         require '../views/auth/login.php';
     }
 }
+?>  -->

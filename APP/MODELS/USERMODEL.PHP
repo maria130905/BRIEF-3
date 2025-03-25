@@ -1,5 +1,5 @@
 <?php
-require 'Database.php';
+require 'DATABASECONFIG.php';
 
 class UserModel {
     private $db;

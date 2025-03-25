@@ -1,25 +1,4 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Connexion</title>
-    <link href="/assets/css/style.css" rel="stylesheet">
-</head>
-<body>
-    <div class="login-form">
-        <h1>Connexion</h1>
-        
-        <?php if (isset($error)): ?>
-            <div class="error"><?= $error ?></div>
-        <?php endif; ?>
 
-        <form method="POST">
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Mot de passe" required>
-            <button type="submit">Se connecter</button>
-        </form>
-    </div>
-</body>
-</html> -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
